@@ -16,3 +16,20 @@ func twoSum(nums []int, target int) []int {
 
 	return res
 }
+
+// solution 2
+// func twoSum(nums []int, target int) []int {
+//     numbersToFind := make(map[int]int);
+    
+//     for i := 0; i < len(nums); i++ {
+//        numberToFind := target - nums[i];
+//        value, found := numbersToFind[numberToFind];
+//         if found  {
+//             return []int{value, i};
+//         }
+//         numbersToFind[nums[i]] = i;
+//     } 
+
+//     return []int{};
+
+// }
